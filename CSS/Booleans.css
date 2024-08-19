@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.game-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.rock, .paper, .scissors {
+    background-color: black;
+    padding: 30px;
+    border-radius: 50%;
+    font-size: 40px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.picked {
+    font-size: 30px;
+}
+
+.reset {
+    margin-bottom: 30px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+button:hover {
+    transform: translateX(4px);
+    opacity: 0.8;
+}
+
+.buttons {
+    display: flex;
+    gap: 2px;
+    width: 100%;
+}

@@ -6,7 +6,7 @@
 4. Undefined 
 5. Objects => {}, []
 6. Booleans => true and false
-7. BigInts => 99n
+7. bigints => 99n
 8.Symbol
 */
 
@@ -27,7 +27,9 @@ When working with money , use cents and convert it back to the original currency
 Math Methods
 Math.round() => rounds a numbers to the nearest integer
 Math.ceil() => rounds a number up regardless of the position
-Math
+Math.trunc => removes the decimal places
+Math.floor() => removers the decimal places
+Math.sign() => returns null if number is negative and 1 if the numbers is positive
 */
 
 // let x = 10
